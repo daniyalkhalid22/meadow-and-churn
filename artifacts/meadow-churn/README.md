@@ -1,6 +1,6 @@
 # Meadow & Churn
 
-Meadow & Churn is a polished, single-page marketing site for a fictional boutique dairy supplier. It presents the brand story, a small-batch product shelf, farm and sourcing practices, customer notes, and a demo-only order request flow.
+Meadow & Churn is a polished, single-page marketing site for a fictional boutique dairy supplier. It presents the brand story, a small-batch product shelf, farm and sourcing practices, customer notes, a demo-only order request flow, and a final connection block for the site creator.
 
 ## Overview
 
@@ -42,6 +42,7 @@ Before the hook effect completes, React renders the English catalog synchronousl
 - Rapid clicks are sequence-guarded so stale animation frames cannot leave mixed DOM content.
 - Initial English render provides usable labels before locale effects run, and `index.html` includes a useful English loading state if JavaScript is slow to execute.
 - The form validates required contact fields and email syntax, then shows a translated success confirmation.
+- The final connection section uses real `mailto:` and HTTPS LinkedIn links in both language modes.
 
 ## Known limitations
 

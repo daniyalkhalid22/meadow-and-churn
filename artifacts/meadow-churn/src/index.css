@@ -603,6 +603,16 @@ h2 { font-size:clamp(45px,5vw,70px); }
 .success-state h3 { max-width:370px; margin-top:23px; font:600 38px/.98 var(--app-font-serif); letter-spacing:-.055em; }
 .success-state p { max-width:420px; margin-top:15px; color:#6d786b; font-size:13px; line-height:1.6; }
 .success-state .text-link { margin-top:30px; }
+.connect-section { background:#dce5d1; }
+.connect-grid { display:grid; grid-template-columns:.8fr 1.2fr; gap:100px; align-items:end; }
+.connect-copy h2 { max-width:520px; margin-top:19px; }
+.connect-copy .lede { max-width:420px; }
+.connect-links { display:grid; grid-template-columns:repeat(2,1fr); gap:13px; }
+.connect-link { min-height:175px; display:flex; flex-direction:column; align-items:flex-start; justify-content:space-between; padding:22px; border:1px solid rgba(38,56,45,.28); color:var(--meadow-ink); text-decoration:none; transition:transform .25s ease, background .25s ease, box-shadow .25s ease; }
+.connect-link:hover { transform:translateY(-5px); background:#f8f4e4; box-shadow:8px 8px 0 rgba(38,56,45,.11); }
+.connect-link__label { color:#687568; font:600 9px var(--app-font-mono); letter-spacing:.13em; text-transform:uppercase; }
+.connect-link strong { max-width:100%; overflow-wrap:anywhere; font:600 clamp(18px,2vw,25px)/1.05 var(--app-font-serif); letter-spacing:-.045em; }
+.connect-link svg { align-self:flex-end; }
 .site-footer { background:var(--meadow-ink); color:var(--meadow-cream); padding:54px 0 25px; }
 .site-footer .brand-mark { color:var(--meadow-cream); }
 .site-footer__top { display:grid; grid-template-columns:1fr 1.2fr 1fr; align-items:start; gap:30px; }
@@ -631,6 +641,7 @@ h2 { font-size:clamp(45px,5vw,70px); }
   .practice-art__oval { width:310px; height:360px; }
   .contact-grid { gap:35px; }
   .contact-intro h2 { max-width:550px; }
+  .connect-grid { grid-template-columns:1fr; gap:42px; }
 }
 @media (max-width: 640px) {
   .page-wrap { width:calc(100% - 32px); }
@@ -676,6 +687,7 @@ h2 { font-size:clamp(45px,5vw,70px); }
   .form-card { padding:20px; }
   .form-row { grid-template-columns:1fr; gap:0; }
   .success-state { min-height:390px; }
+  .connect-links { grid-template-columns:1fr; }
   .site-footer__top { grid-template-columns:1fr; gap:27px; }
   .footer-links { justify-content:flex-start; }
   .site-footer__bottom { flex-direction:column; gap:9px; margin-top:42px; }

@@ -43,6 +43,7 @@ A localization-ready marketing website for a fictional boutique dairy supplier, 
 - Farm sourcing practices and customer testimonials
 - Responsive navigation and English/Urdu switching without reload
 - Client-side validated demo order request flow
+- Creator connection section with direct email and LinkedIn links
 
 ## User preferences
 

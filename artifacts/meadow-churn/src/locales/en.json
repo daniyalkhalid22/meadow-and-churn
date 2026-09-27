@@ -136,13 +136,23 @@
     "successBody": "Thanks, {name}. A dairy desk note for {product} is ready for review. This demo does not send email or place an order.",
     "newRequest": "Make another request"
   },
+  "connect": {
+    "eyebrow": "The person behind the build",
+    "title": "Connect with me.",
+    "body": "Have a question, a project in mind, or simply want to say hello? I would love to hear from you.",
+    "emailLabel": "Email",
+    "email": "daniyal7k6@gmail.com",
+    "linkedinLabel": "LinkedIn",
+    "linkedin": "daniyal--khalid"
+  },
   "footer": {
     "line": "Made slowly in the foothills. Shared generously at the table.",
     "location": "Murree foothills · Islamabad & Rawalpindi",
     "hours": "Dairy desk: Mon–Sat, 9am–5pm",
     "copyright": "© 2025 Meadow & Churn. A fictional dairy house.",
     "instagram": "Instagram",
-    "email": "hello@meadowandchurn.test"
+    "email": "hello@meadowandchurn.test",
+    "credit": "Made by Daniyal Khalid"
   },
   "common": {
     "loading": "Meadow & Churn is preparing your dairy shelf.",

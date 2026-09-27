@@ -352,6 +352,28 @@ function App() {
             </div>
           </div>
         </section>
+        <section className="connect-section section-pad">
+          <div className="page-wrap connect-grid">
+            <div className="connect-copy">
+              <div className="section-index">05 <span /></div>
+              <div className="eyebrow"><span className="eyebrow__dot" /><span data-i18n="connect.eyebrow">{t('connect.eyebrow')}</span></div>
+              <h2 data-i18n="connect.title">{t('connect.title')}</h2>
+              <p className="lede" data-i18n="connect.body">{t('connect.body')}</p>
+            </div>
+            <div className="connect-links">
+              <a className="connect-link" href="mailto:daniyal7k6@gmail.com" data-testid="link-daniyal-email">
+                <span className="connect-link__label" data-i18n="connect.emailLabel">{t('connect.emailLabel')}</span>
+                <strong data-i18n="connect.email">{t('connect.email')}</strong>
+                <ArrowUpRight size={17} />
+              </a>
+              <a className="connect-link" href="https://www.linkedin.com/in/daniyal--khalid" target="_blank" rel="noreferrer" data-testid="link-daniyal-linkedin">
+                <span className="connect-link__label" data-i18n="connect.linkedinLabel">{t('connect.linkedinLabel')}</span>
+                <strong data-i18n="connect.linkedin">{t('connect.linkedin')}</strong>
+                <ArrowUpRight size={17} />
+              </a>
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer className="site-footer">
@@ -369,6 +391,7 @@ function App() {
         <div className="page-wrap site-footer__bottom">
           <span data-i18n="footer.copyright">{t('footer.copyright')}</span>
           <span data-i18n="footer.hours">{t('footer.hours')}</span>
+          <span data-i18n="footer.credit">{t('footer.credit')}</span>
         </div>
       </footer>
     </div>
