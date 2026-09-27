@@ -1,1 +1,153 @@
-{}
+{
+  "meta": {
+    "title": "Meadow & Churn — dairy with a little more time",
+    "description": "Small-batch milk, cultured cream, and golden ghee from the foothills of Murree."
+  },
+  "brand": {
+    "name": "Meadow & Churn",
+    "tagline": "Dairy with a little more time",
+    "markLabel": "Meadow & Churn home"
+  },
+  "nav": {
+    "primaryLabel": "Primary navigation",
+    "story": "Our story",
+    "products": "The dairy shelf",
+    "practice": "Our practice",
+    "contact": "Order a batch",
+    "menuLabel": "Open navigation menu",
+    "closeLabel": "Close navigation menu",
+    "languageLabel": "Choose language",
+    "english": "EN",
+    "urdu": "اردو"
+  },
+  "hero": {
+    "eyebrow": "From the green edge of Murree",
+    "title": "Good dairy takes its time.",
+    "body": "Morning milk, slow cultures, and the kind of care you can taste in the last spoonful.",
+    "primary": "Shop the shelf",
+    "secondary": "Meet the makers",
+    "note": "Delivered fresh across Islamabad & Rawalpindi",
+    "badge": "Small batch / 04",
+    "artLabel": "Illustration of the Meadow and Churn dairy shelf"
+  },
+  "story": {
+    "eyebrow": "A quieter kind of good",
+    "title": "Made close to the meadow.",
+    "body": "We are a tiny dairy house built around one simple idea: if we know the herd, the land, and the hands behind the churn, we can make better food.",
+    "detail1Title": "Milk before sunrise",
+    "detail1Body": "Our cream-top milk travels from pasture to bottle in under 18 hours.",
+    "detail2Title": "Cultures, not shortcuts",
+    "detail2Body": "Every yogurt and cheese gets a patient ferment and a real name.",
+    "detail3Title": "A fairer churn",
+    "detail3Body": "We pay partner farms on quality, consistency, and care—not volume alone.",
+    "pullQuote": "The best flavour is usually the one you did not rush.",
+    "since": "Since",
+    "year": "2018",
+    "mark": "m&c"
+  },
+  "products": {
+    "eyebrow": "The dairy shelf",
+    "title": "Four staples, made properly.",
+    "body": "Keep a little good in the fridge. Every batch is dated, traceable, and made in limited quantities.",
+    "milk": {
+      "name": "Glass-Bottle Milk",
+      "description": "Rich, cream-top milk from morning milking. Best poured cold over tea or warm toast.",
+      "size": "1 litre",
+      "price": "PKR 390",
+      "tag": "Everyday"
+    },
+    "cheese": {
+      "name": "Kashmiri Feta",
+      "description": "Briny, crumbly, and bright with a clean finish. A little block goes a long way.",
+      "size": "200 grams",
+      "price": "PKR 680",
+      "tag": "Cultured"
+    },
+    "yogurt": {
+      "name": "Wildflower Yogurt",
+      "description": "Thick-set yogurt with a gentle tang and a spoonable, cloud-soft texture.",
+      "size": "500 grams",
+      "price": "PKR 450",
+      "tag": "Slow set"
+    },
+    "ghee": {
+      "name": "Hearth Ghee",
+      "description": "Clarified butter cooked low and slow until nutty, golden, and deeply aromatic.",
+      "size": "250 grams",
+      "price": "PKR 1,150",
+      "tag": "Pantry hero"
+    },
+    "order": "Add to request",
+    "viewAll": "Ask about the full shelf"
+  },
+  "practice": {
+    "eyebrow": "Where it begins",
+    "title": "A shorter distance from pasture to plate.",
+    "body": "We work with three family-run farms around the foothills. They know every animal by temperament; we know every batch by its date.",
+    "stat1": "3",
+    "stat1Label": "partner farms",
+    "stat2": "18h",
+    "stat2Label": "pasture to bottle",
+    "stat3": "0",
+    "stat3Label": "powders or fillers",
+    "list1": "Grazing-first feed, with no routine growth hormones",
+    "list2": "Reusable glass bottles collected on the next delivery",
+    "list3": "Cold-chain delivery in small, planned routes",
+    "link": "Read our sourcing notes"
+  },
+  "testimonials": {
+    "eyebrow": "From the table",
+    "title": "A few words from regulars.",
+    "quote1": "The milk has that old-fashioned cream line, but the service is wonderfully modern.",
+    "name1": "Areeba K.",
+    "role1": "Home cook, F-6",
+    "quote2": "The yogurt is the first thing gone at breakfast. My children now ask for the glass jar.",
+    "name2": "Hamza R.",
+    "role2": "Father of two, Bahria",
+    "quote3": "Their ghee makes a simple daal taste like someone cared all afternoon.",
+    "name3": "Sana M.",
+    "role3": "Caterer, Islamabad"
+  },
+  "contact": {
+    "eyebrow": "Bring home a batch",
+    "title": "Tell us what your fridge is missing.",
+    "body": "This is a demo request flow, not a live checkout. Share your details and our imaginary dairy desk will confirm a delivery window.",
+    "nameLabel": "Your name",
+    "namePlaceholder": "e.g. Hira Shah",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "phoneLabel": "Phone number",
+    "phonePlaceholder": "+92 300 000 0000",
+    "productLabel": "What would you like?",
+    "productPlaceholder": "Choose a dairy staple",
+    "productMilk": "Glass-Bottle Milk",
+    "productCheese": "Kashmiri Feta",
+    "productYogurt": "Wildflower Yogurt",
+    "productGhee": "Hearth Ghee",
+    "quantityLabel": "Quantity",
+    "quantityPlaceholder": "One batch",
+    "messageLabel": "A note for the dairy desk",
+    "messagePlaceholder": "Delivery area, preferred day, or anything we should know",
+    "submit": "Send a demo request",
+    "finePrint": "No payment is taken. We will only use these details to illustrate the request flow.",
+    "required": "Please complete this field.",
+    "emailError": "Enter a valid email address.",
+    "successTitle": "Your request is on the imaginary route.",
+    "successBody": "Thanks, {name}. A dairy desk note for {product} is ready for review. This demo does not send email or place an order.",
+    "newRequest": "Make another request"
+  },
+  "footer": {
+    "line": "Made slowly in the foothills. Shared generously at the table.",
+    "location": "Murree foothills · Islamabad & Rawalpindi",
+    "hours": "Dairy desk: Mon–Sat, 9am–5pm",
+    "copyright": "© 2025 Meadow & Churn. A fictional dairy house.",
+    "instagram": "Instagram",
+    "email": "hello@meadowandchurn.test"
+  },
+  "common": {
+    "loading": "Meadow & Churn is preparing your dairy shelf.",
+    "arrow": "→",
+    "open": "Open",
+    "close": "Close"
+  }
+}

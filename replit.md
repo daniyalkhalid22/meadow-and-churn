@@ -1,6 +1,6 @@
 # Meadow & Churn
 
-Frontend scaffold for the Meadow & Churn website; product and marketing UI will be added in later tasks.
+A localization-ready marketing website for a fictional boutique dairy supplier, with English and Urdu support.
 
 ## Run & Operate
 
@@ -22,20 +22,27 @@ Frontend scaffold for the Meadow & Churn website; product and marketing UI will 
 
 ## Where things live
 
-- `artifacts/meadow-churn/src/main.tsx` — existing Vite/React entry point
-- `artifacts/meadow-churn/src/locales/` — English and Urdu locale placeholders
-- `artifacts/meadow-churn/src/js/localization.ts` — reserved localization scaffold (not wired yet)
-- `artifacts/meadow-churn/src/index.css` — Tailwind entry and shared CSS variables
+- `artifacts/meadow-churn/src/main.tsx` — Vite/React entry point
+- `artifacts/meadow-churn/src/App.tsx` — single-page marketing site and client-only request form
+- `artifacts/meadow-churn/src/locales/` — matching English and Urdu JSON catalogs
+- `artifacts/meadow-churn/src/js/localization.ts` — locale persistence, fallback, DOM attributes, and RTL handling
+- `artifacts/meadow-churn/src/index.css` — Tailwind entry, theme tokens, responsive layout, and motion
+- `artifacts/meadow-churn/README.md` — user-facing implementation and localization documentation
 
 ## Architecture decisions
 
 - Meadow & Churn remains a standalone Vite artifact with the generated app conventions intact.
 - Tailwind CSS is compiled by the installed `@tailwindcss/vite` plugin in `vite.config.ts`; no CDN is used.
-- Locale files are JSON placeholders for the later bilingual implementation and are intentionally not imported yet.
+- English is the fallback locale; Urdu switches the document to RTL and the user's language choice persists in localStorage.
+- The order form is intentionally client-only because the brief describes a demo request flow, not a live checkout.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+- Single-page marketing story for Meadow & Churn
+- Product shelf with milk, cheese, yogurt, and ghee
+- Farm sourcing practices and customer testimonials
+- Responsive navigation and English/Urdu switching without reload
+- Client-side validated demo order request flow
 
 ## User preferences
 
