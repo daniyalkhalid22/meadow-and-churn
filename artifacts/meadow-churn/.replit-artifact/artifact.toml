@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Meadow & Churn"
+description = "A localization-ready marketing website for a fictional boutique dairy supplier, with English and Urdu support for customers browsing products and placing orders."
+version = "1.0.0"
+id = "artifacts/meadow-churn"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20923
+
+[services.development]
+run = "pnpm --filter @workspace/meadow-churn run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/meadow-churn", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/meadow-churn/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20923"
+BASE_PATH = "/"

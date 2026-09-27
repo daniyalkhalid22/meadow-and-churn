@@ -1,6 +1,6 @@
-# [Project name]
+# Meadow & Churn
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+Frontend scaffold for the Meadow & Churn website; product and marketing UI will be added in later tasks.
 
 ## Run & Operate
 
@@ -22,11 +22,16 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/meadow-churn/src/main.tsx` — existing Vite/React entry point
+- `artifacts/meadow-churn/src/locales/` — English and Urdu locale placeholders
+- `artifacts/meadow-churn/src/js/localization.ts` — reserved localization scaffold (not wired yet)
+- `artifacts/meadow-churn/src/index.css` — Tailwind entry and shared CSS variables
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- Meadow & Churn remains a standalone Vite artifact with the generated app conventions intact.
+- Tailwind CSS is compiled by the installed `@tailwindcss/vite` plugin in `vite.config.ts`; no CDN is used.
+- Locale files are JSON placeholders for the later bilingual implementation and are intentionally not imported yet.
 
 ## Product
 
