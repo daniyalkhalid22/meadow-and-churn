@@ -1,0 +1,5 @@
+{
+  "installCommand": "pnpm install",
+  "buildCommand": "pnpm --filter @workspace/meadow-churn run build",
+  "outputDirectory": "artifacts/meadow-churn/dist/public"
+}
